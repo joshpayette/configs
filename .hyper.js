@@ -154,7 +154,7 @@ module.exports = {
     'hyperpower',
     'hyper-save-windowstate',
     'hyperline',
-    'hyper-summon'
+    'hyperterm-summon'
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
