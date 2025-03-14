@@ -93,7 +93,8 @@ module.exports = {
     //
     // Cygwin
     // - Example: `C:\\cygwin64\\bin\\bash.exe`
-    shell: 'C:\\Program Files\\PowerShell\\7\\pwsh.exe',
+    // shell: 'C:\\Program Files\\PowerShell\\7\\pwsh.exe', // * Work
+    shell: 'C:\\Users\\joshw\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe', // * Home
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
     shellArgs: [],
@@ -149,7 +150,7 @@ module.exports = {
     'hyperpower',
     'hyper-save-windowstate',
     'hyperline',
-    "hyper-confirm"
+    'hyper-confirm',
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
