@@ -133,7 +133,7 @@ module.exports = {
     // for advanced config flags please refer to https://hyper.is/#cfg
     summon: {
       hideDock: true,
-      hideOnBlur: true,
+      hideOnBlur: false,
       hotkey: 'Alt+Super+O',
     },
   },
@@ -154,6 +154,7 @@ module.exports = {
     'hyperpower',
     'hyper-save-windowstate',
     'hyperline',
+    'hyper-summon'
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
