@@ -153,7 +153,6 @@ module.exports = {
     'hyperlinks',
     'hyperpower',
     'hyper-save-windowstate',
-    'hyperterm-summon',
     'hyperline',
   ],
   // in development, you can create a directory under
