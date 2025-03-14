@@ -93,7 +93,7 @@ module.exports = {
     //
     // Cygwin
     // - Example: `C:\\cygwin64\\bin\\bash.exe`
-    shell: 'C:\\Users\\joshw\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe',
+    shell: 'C:\\Program Files\\PowerShell\\7\\pwsh.exe',
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
     shellArgs: [],
@@ -131,11 +131,6 @@ module.exports = {
     // set to true to preserve working directory when creating splits or tabs
     preserveCWD: true,
     // for advanced config flags please refer to https://hyper.is/#cfg
-    summon: {
-      hideDock: true,
-      hideOnBlur: false,
-      hotkey: 'Alt+Super+O',
-    },
   },
   // a list of plugins to fetch and install from npm
   // format: [@org/]project[#version]
@@ -154,7 +149,7 @@ module.exports = {
     'hyperpower',
     'hyper-save-windowstate',
     'hyperline',
-    'hyperterm-summon'
+    "hyper-confirm"
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
