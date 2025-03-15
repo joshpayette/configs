@@ -140,7 +140,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyper-dracula',
+    'hyper-monokai-deluxe',
     'hypercwd',
     'hyperterm-paste',
     'hyperterm-dibdabs',
