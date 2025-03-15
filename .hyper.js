@@ -141,16 +141,12 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-dracula',
-    'hyper-monokai-deluxe',
     'hypercwd',
     'hyperterm-paste',
     'hyperterm-dibdabs',
     'hyperterm-tabs',
-    'hyperlinks',
     'hyperpower',
-    'hyper-save-windowstate',
     'hyperline',
-    'hyper-confirm',
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
