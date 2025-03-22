@@ -210,7 +210,7 @@
     "report-dashboard.eacoding.com-VM": "linux",
     "Discord-Bots-EC2": "linux"
   },
-  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.enabled": true,
   "editor.autoClosingBrackets": "always",
   "github.copilot.enable": {
     "*": true,
@@ -253,7 +253,7 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableAutoCompletions": true,
   "typescript.preferences.preferTypeOnlyAutoImports": true,
   "editor.lightbulb.enabled": "off",
   "terminal.integrated.stickyScroll.enabled": false,
