@@ -26,9 +26,7 @@
   "git.autofetch": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "git.allowForcePush": true,
-  "workbench.iconTheme": "bearded-icons",
   "explorer.confirmDragAndDrop": false,
   "editor.showFoldingControls": "always",
   "editor.folding": true,
@@ -232,7 +230,6 @@
   "powershell.integratedConsole.showOnStartup": false,
   "terminal.integrated.tabs.location": "left",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "githubPullRequests.createOnPublishBranch": "never",
   "settingsSync.ignoredSettings": ["remote.SSH.configFile"],
   "window.commandCenter": true,
   "editor.accessibilitySupport": "off",
@@ -240,13 +237,8 @@
   "workbench.editor.labelFormat": "short",
   "editor.inlayHints.enabled": "off",
   "editor.guides.indentation": false,
-  "githubPullRequests.pullBranch": "never",
   "[python]": {
     "editor.formatOnType": true
-  },
-  "redhat.telemetry.enabled": false,
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "github.copilot.advanced": {},
   "git.ignoreMissingGitWarning": true,
@@ -285,5 +277,6 @@
   "editor.tabSize": 2,
   "editor.stickyTabStops": true,
   "emmet.showAbbreviationSuggestions": false,
-  "emmet.showExpandedAbbreviation": "never"
+  "emmet.showExpandedAbbreviation": "never",
+  "workbench.iconTheme": "bearded-icons"
 }
