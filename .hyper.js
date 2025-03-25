@@ -32,7 +32,7 @@ module.exports = {
     foregroundColor: '#fff',
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: '#32302f',
+    // backgroundColor: '#32302f',
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
     // border color (window, tabs)
@@ -140,8 +140,9 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyper-dracula',
-    //'hyper-monokai-deluxe',
+    // 'hyper-dracula',
+    // 'hyperborder',
+    'hyper-monokai-deluxe',
     'hypercwd',
     'hyperlinks',
     'hyperterm-paste',
@@ -149,8 +150,7 @@ module.exports = {
     'hyperpower',
     'hyperline',
     'hyper-confirm',
-    'hyperborder',
-    'hyper-save-windowstate'
+    'hyper-save-windowstate',
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
