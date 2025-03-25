@@ -11,7 +11,7 @@ module.exports = {
     fontSize: 12,
     // font family with optional fallbacks
     fontFamily:
-      'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      'Input Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
     // font weight for bold characters: 'normal' or 'bold'
@@ -32,7 +32,7 @@ module.exports = {
     foregroundColor: '#fff',
     // terminal background color
     // opacity is only supported on macOS
-    // backgroundColor: '#32302f',
+    backgroundColor: '#282a35', // dracula bg
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
     // border color (window, tabs)
@@ -140,9 +140,9 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    // 'hyper-dracula',
-    // 'hyperborder',
-    'hyper-monokai-deluxe',
+    // 'hyper-monokai-deluxe',
+    'hyper-dracula',
+    'hyperborder',
     'hypercwd',
     'hyperlinks',
     'hyperterm-paste',
