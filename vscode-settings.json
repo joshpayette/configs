@@ -107,7 +107,7 @@
   "editor.fontFamily": "'JetBrains Mono'",
   // "editor.fontFamily": "'Dank Mono'",
   // "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "terminal.integrated.fontFamily": "monospace",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -223,7 +223,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.semi": false,
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Dracula Theme",
   "json.schemas": [],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -234,7 +234,6 @@
   "window.commandCenter": true,
   "editor.accessibilitySupport": "off",
   "prettier.singleQuote": true,
-  "workbench.editor.labelFormat": "short",
   "editor.inlayHints.enabled": "off",
   "editor.guides.indentation": false,
   "[python]": {
