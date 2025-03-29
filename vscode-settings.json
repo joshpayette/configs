@@ -242,7 +242,6 @@
   "github.copilot.advanced": {},
   "git.ignoreMissingGitWarning": true,
   "settingsSync.ignoredExtensions": [],
-  "prettier.endOfLine": "crlf",
   "editor.unicodeHighlight.allowedCharacters": {
     "∗": true
   },
