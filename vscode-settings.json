@@ -99,7 +99,8 @@
     }
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "always"
   },
   "editor.formatOnSave": true,
   "files.eol": "\r\n",
@@ -245,7 +246,6 @@
   "editor.unicodeHighlight.allowedCharacters": {
     "∗": true
   },
-  "workbench.sideBar.location": "right",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "terminal.integrated.scrollback": 30000,
   "[css]": {
@@ -276,5 +276,8 @@
   "editor.stickyTabStops": true,
   "emmet.showAbbreviationSuggestions": false,
   "emmet.showExpandedAbbreviation": "never",
-  "workbench.iconTheme": "bearded-icons"
+  "workbench.iconTheme": "bearded-icons",
+  "security.allowedUNCHosts": ["frsdata20"],
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top"
 }
