@@ -99,8 +99,8 @@
     }
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.addMissingImports": "always"
+    "source.fixAll.eslint": "explicit"
+    // "source.addMissingImports": "always"
   },
   "editor.formatOnSave": true,
   "files.eol": "\r\n",
