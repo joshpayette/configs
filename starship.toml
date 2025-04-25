@@ -80,7 +80,7 @@ symbol = " "
 [git_branch]
 symbol = " "
 format = "[$branch]($style)"
-style = "bright-black"
+style = "white"
 
 [git_commit]
 tag_symbol = '  '
