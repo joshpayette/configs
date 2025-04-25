@@ -32,6 +32,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+    "firstWindowPreference": "persistedWindowLayout",
     "keybindings": 
     [
         {
@@ -99,7 +100,7 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "colorScheme": "Campbell",
+                "colorScheme": "Dark+",
                 "font": 
                 {
                     "face": "FiraCode Nerd Font Mono",
