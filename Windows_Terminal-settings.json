@@ -1,118 +1,293 @@
 {
-    "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "id": "User.copy.644BA8F2"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "id": "User.splitPane.A6751878"
-        }
-    ],
-    "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
-    "firstWindowPreference": "persistedWindowLayout",
-    "keybindings": 
-    [
-        {
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
-        }
-    ],
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
-    "profiles": 
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
     {
-        "defaults": {},
-        "list": 
-        [
-            {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell"
-            },
-            {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
-            },
-            {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "colorScheme": "Dark+",
-                "font": 
-                {
-                    "face": "FiraCode Nerd Font Mono",
-                    "size": 10
-                },
-                "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
-                "hidden": false,
-                "name": "PowerShell 7",
-                "source": "Windows.Terminal.PowershellCore"
-            }
-        ]
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.644BA8F2"
     },
-    "schemes": [],
-    "themes": []
+    {
+      "command": "paste",
+      "id": "User.paste"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "id": "User.splitPane.A6751878"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+  "firstWindowPreference": "persistedWindowLayout",
+  "keybindings": [
+    {
+      "id": "User.copy.644BA8F2",
+      "keys": "ctrl+c"
+    },
+    {
+      "id": "User.paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "User.splitPane.A6751878",
+      "keys": "alt+shift+d"
+    }
+  ],
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {},
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+        "hidden": false,
+        "name": "Git Bash",
+        "source": "Git"
+      },
+      {
+        "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+      },
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "colorScheme": "BlueBerryPie",
+        "font": {
+          "face": "FiraCode Nerd Font Mono",
+          "size": 10
+        },
+        "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+        "hidden": false,
+        "name": "PowerShell 7",
+        "source": "Windows.Terminal.PowershellCore"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#1C0C28",
+      "black": "#0A4C62",
+      "blue": "#90A5BD",
+      "brightBlack": "#201637",
+      "brightBlue": "#39173D",
+      "brightCyan": "#5E6071",
+      "brightGreen": "#0A6C7E",
+      "brightPurple": "#BC94B7",
+      "brightRed": "#C87272",
+      "brightWhite": "#0A6C7E",
+      "brightYellow": "#7A3188",
+      "cursorColor": "#FCFAD6",
+      "cyan": "#7E83CC",
+      "foreground": "#BABAB9",
+      "green": "#5CB1B3",
+      "name": "BlueBerryPie",
+      "purple": "#9D54A7",
+      "red": "#99246E",
+      "selectionBackground": "#606060",
+      "white": "#F0E8D6",
+      "yellow": "#EAB9A8"
+    },
+    {
+      "name": "Dracula",
+      "black": "#000000",
+      "red": "#ff5555",
+      "green": "#50fa7b",
+      "yellow": "#f1fa8c",
+      "blue": "#bd93f9",
+      "purple": "#ff79c6",
+      "cyan": "#8be9fd",
+      "white": "#bbbbbb",
+      "brightBlack": "#555555",
+      "brightRed": "#ff5555",
+      "brightGreen": "#50fa7b",
+      "brightYellow": "#f1fa8c",
+      "brightBlue": "#bd93f9",
+      "brightPurple": "#ff79c6",
+      "brightCyan": "#8be9fd",
+      "brightWhite": "#ffffff",
+      "background": "#1e1f29",
+      "foreground": "#f8f8f2",
+      "selectionBackground": "#44475a",
+      "cursorColor": "#bbbbbb"
+    },
+    {
+      "name": "Duotone Dark",
+      "black": "#1f1d27",
+      "red": "#d9393e",
+      "green": "#2dcd73",
+      "yellow": "#d9b76e",
+      "blue": "#ffc284",
+      "purple": "#de8d40",
+      "cyan": "#2488ff",
+      "white": "#b7a1ff",
+      "brightBlack": "#353147",
+      "brightRed": "#d9393e",
+      "brightGreen": "#2dcd73",
+      "brightYellow": "#d9b76e",
+      "brightBlue": "#ffc284",
+      "brightPurple": "#de8d40",
+      "brightCyan": "#2488ff",
+      "brightWhite": "#eae5ff",
+      "background": "#1f1d27",
+      "foreground": "#b7a1ff",
+      "selectionBackground": "#353147",
+      "cursorColor": "#ff9839"
+    },
+    {
+      "name": "Monokai Pro (Filter Octagon)",
+      "black": "#000000",
+      "red": "#d81e00",
+      "green": "#5ea702",
+      "yellow": "#cfae00",
+      "blue": "#427ab3",
+      "purple": "#89658e",
+      "cyan": "#00a7aa",
+      "white": "#dbded8",
+      "brightBlack": "#686a66",
+      "brightRed": "#f54235",
+      "brightGreen": "#99e343",
+      "brightYellow": "#fdeb61",
+      "brightBlue": "#84b0d8",
+      "brightPurple": "#bc94b7",
+      "brightCyan": "#37e6e8",
+      "brightWhite": "#f1f1f0",
+      "background": "#282a3a",
+      "foreground": "#eaf2f1"
+    },
+    {
+      "name": "Monokai Pro (Filter Ristretto)",
+      "black": "#403838",
+      "red": "#FD6883",
+      "green": "#ADDA78",
+      "yellow": "#F9CC6C",
+      "blue": "#F38D70",
+      "purple": "#A8A9EB",
+      "cyan": "#85DACC",
+      "white": "#FFF1F3",
+      "brightBlack": "#72696A",
+      "brightRed": "#FD6883",
+      "brightGreen": "#ADDA78",
+      "brightYellow": "#F9CC6C",
+      "brightBlue": "#F38D70",
+      "brightPurple": "#A8A9EB",
+      "brightCyan": "#85DACC",
+      "brightWhite": "#FFF1F3",
+      "background": "#2C2525",
+      "foreground": "#FFF1F3",
+      "selectionBackground": "#C3B7B8",
+      "cursorColor": "#FFF1F3"
+    },
+    {
+      "name": "Neon",
+      "black": "#000000",
+      "red": "#ff3045",
+      "green": "#5ffa74",
+      "yellow": "#fffc7e",
+      "blue": "#0208cb",
+      "purple": "#f924e7",
+      "cyan": "#00fffc",
+      "white": "#c7c7c7",
+      "brightBlack": "#686868",
+      "brightRed": "#ff5a5a",
+      "brightGreen": "#75ff88",
+      "brightYellow": "#fffd96",
+      "brightBlue": "#3c40cb",
+      "brightPurple": "#f15be5",
+      "brightCyan": "#88fffe",
+      "brightWhite": "#ffffff",
+      "background": "#14161a",
+      "foreground": "#00fffc",
+      "selectionBackground": "#0013ff",
+      "cursorColor": "#c7c7c7"
+    },
+    {
+      "name": "Purple Rain",
+      "black": "#000000",
+      "red": "#ff260e",
+      "green": "#9be205",
+      "yellow": "#ffc400",
+      "blue": "#00a2fa",
+      "purple": "#815bb5",
+      "cyan": "#00deef",
+      "white": "#ffffff",
+      "brightBlack": "#565656",
+      "brightRed": "#ff4250",
+      "brightGreen": "#b8e36e",
+      "brightYellow": "#ffd852",
+      "brightBlue": "#00a6ff",
+      "brightPurple": "#ac7bf0",
+      "brightCyan": "#74fdf3",
+      "brightWhite": "#ffffff",
+      "background": "#21084a",
+      "foreground": "#fffbf6",
+      "selectionBackground": "#287691",
+      "cursorColor": "#ff271d"
+    },
+    {
+      "name": "Sakura",
+      "black": "#000000",
+      "red": "#d52370",
+      "green": "#41af1a",
+      "yellow": "#bc7053",
+      "blue": "#6964ab",
+      "purple": "#c71fbf",
+      "cyan": "#939393",
+      "white": "#998eac",
+      "brightBlack": "#786d69",
+      "brightRed": "#f41d99",
+      "brightGreen": "#22e529",
+      "brightYellow": "#f59574",
+      "brightBlue": "#9892f1",
+      "brightPurple": "#e90cdd",
+      "brightCyan": "#eeeeee",
+      "brightWhite": "#cbb6ff",
+      "background": "#18131e",
+      "foreground": "#dd7bdc",
+      "selectionBackground": "#c05cbf",
+      "cursorColor": "#ff65fd"
+    }
+  ],
+  "themes": []
 }
