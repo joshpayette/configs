@@ -32,72 +32,6 @@
   "editor.folding": true,
   "editor.foldingStrategy": "indentation",
   "prettier.trailingComma": "all",
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#dd0531"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#61dafb"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Svelte Orange",
-      "value": "#ff3d00"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    },
-    {
-      "name": "Auth0 Orange",
-      "value": "#eb5424"
-    },
-    {
-      "name": "C# Purple",
-      "value": "#68217A"
-    },
-    {
-      "name": "Gatsby Purple",
-      "value": "#639"
-    },
-    {
-      "name": "Go Cyan",
-      "value": "#5dc9e2"
-    },
-    {
-      "name": "Java Blue-Gray",
-      "value": "#557c9b"
-    },
-    {
-      "name": "Soundboard-Desktop",
-      "value": "#160127"
-    },
-    {
-      "name": "Puggy Purple",
-      "value": "#41197d"
-    }
-  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
     // "source.addMissingImports": "always"
@@ -112,46 +46,6 @@
   "terminal.integrated.fontFamily": "monospace",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // "workbench.colorCustomizations": {
-  //   "activityBar.activeBackground": "#1f6fd0",
-  //   "activityBar.background": "#1f6fd0",
-  //   "activityBar.foreground": "#e7e7e7",
-  //   "activityBar.inactiveForeground": "#e7e7e799",
-  //   "activityBarBadge.foreground": "#15202b",
-  //   "statusBar.background": "#1857a4",
-  //   "statusBar.foreground": "#e7e7e7",
-  //   "statusBarItem.hoverBackground": "#1f6fd0",
-  //   "titleBar.activeBackground": "#1857a4",
-  //   "titleBar.activeForeground": "#e7e7e7",
-  //   "titleBar.inactiveBackground": "#1857a499",
-  //   "titleBar.inactiveForeground": "#e7e7e799",
-  //   "editor.lineHighlightBackground": "#1073cf2d",
-  //   "editor.lineHighlightBorder": "#9fced11f"
-  // },
-  "workbench.colorCustomizations": {
-    // The background is optional
-    //terminal.background": "#282a36",
-    "terminalCursor.background": "#282a36",
-    "terminalCursor.foreground": "#97979b",
-    "terminal.selectionBackground": "#97979b33",
-    "terminal.foreground": "#eff0eb",
-    "terminal.ansiBlack": "#282a36",
-    "terminal.ansiRed": "#ff5c57",
-    "terminal.ansiGreen": "#5af78e",
-    "terminal.ansiYellow": "#f3f99d",
-    "terminal.ansiBlue": "#57c7ff",
-    "terminal.ansiMagenta": "#ff6ac1",
-    "terminal.ansiCyan": "#9aedfe",
-    "terminal.ansiWhite": "#f1f1f0",
-    "terminal.ansiBrightBlack": "#686868",
-    "terminal.ansiBrightRed": "#ff5c57",
-    "terminal.ansiBrightGreen": "#5af78e",
-    "terminal.ansiBrightYellow": "#f3f99d",
-    "terminal.ansiBrightBlue": "#57c7ff",
-    "terminal.ansiBrightMagenta": "#ff6ac1",
-    "terminal.ansiBrightCyan": "#9aedfe",
-    "terminal.ansiBrightWhite": "#eff0eb"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -190,25 +84,10 @@
     }
   },
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
-  },
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
   "remote.SSH.enableX11Forwarding": false,
   "remote.SSH.showLoginTerminal": true,
   "remote.SSH.remotePlatform": {
-    "cron_new": "linux",
-    "envoy": "linux",
-    "envoy_new": "linux",
-    "cron_prod": "linux",
-    "cron_dev": "linux",
     "DONT-STARVE-TOGETHER": "linux",
-    "report-dashboard.eacoding.com": "linux",
-    "report-dashboard.eacoding.com-EC2": "linux",
-    "report-dashboard.eacoding.com-VM": "linux",
     "Discord-Bots-EC2": "linux"
   },
   "editor.inlineSuggest.enabled": true,
@@ -251,7 +130,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "github.copilot.editor.enableAutoCompletions": true,
   "typescript.preferences.preferTypeOnlyAutoImports": true,
   "editor.lightbulb.enabled": "off",
   "terminal.integrated.stickyScroll.enabled": false,
