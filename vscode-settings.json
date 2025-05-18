@@ -39,7 +39,10 @@
   "search.exclude": {
     "node_modules": true,
     "dist": true,
-    ".next": true
+    ".next": true,
+    ".turbo": true,
+    ".vercel": true,
+    ".yarn": true
   },
   "editor.formatOnSave": true,
   "files.eol": "\r\n",
