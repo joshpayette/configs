@@ -36,6 +36,11 @@
     "source.fixAll.eslint": "explicit"
     // "source.addMissingImports": "always"
   },
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".next": true
+  },
   "editor.formatOnSave": true,
   "files.eol": "\r\n",
   //"editor.fontFamily": "'Input Mono'",
