@@ -101,11 +101,11 @@
   "editor.inlineSuggest.enabled": true,
   "editor.autoClosingBrackets": "always",
   "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "scminput": false,
-    "yaml": true
+    "*": false
+//    "plaintext": true,
+//    "markdown": true,
+//    "scminput": false,
+//    "yaml": true
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
