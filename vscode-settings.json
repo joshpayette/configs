@@ -44,7 +44,6 @@
     ".vercel": true,
     ".yarn": true
   },
-  "editor.formatOnSave": true,
   "files.eol": "\r\n",
   //"editor.fontFamily": "'Input Mono'",
   "editor.fontFamily": "'JetBrains Mono'",
@@ -72,6 +71,14 @@
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "colorize.languages": ["javascript", "typescript", "markdown"],
   "explorer.compactFolders": false,
   "editor.minimap.showSlider": "always",
   "editor.semanticHighlighting.enabled": true,
@@ -101,11 +108,12 @@
   "editor.inlineSuggest.enabled": true,
   "editor.autoClosingBrackets": "always",
   "github.copilot.enable": {
-    "*": false
-//    "plaintext": true,
-//    "markdown": true,
-//    "scminput": false,
-//    "yaml": true
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "typescriptreact": true,
+    "postcss": true
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -123,11 +131,9 @@
   "editor.accessibilitySupport": "off",
   "prettier.singleQuote": true,
   "editor.inlayHints.enabled": "off",
-  "editor.guides.indentation": false,
   "[python]": {
     "editor.formatOnType": true
   },
-  "github.copilot.advanced": {},
   "git.ignoreMissingGitWarning": true,
   "settingsSync.ignoredExtensions": [],
   "editor.unicodeHighlight.allowedCharacters": {
@@ -162,8 +168,28 @@
   "editor.stickyTabStops": true,
   "emmet.showAbbreviationSuggestions": false,
   "emmet.showExpandedAbbreviation": "never",
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
   "workbench.iconTheme": "bearded-icons",
-  "security.allowedUNCHosts": ["frsdata20"],
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "security.allowedUNCHosts": ["frsdata20"],
+  "chat.instructionsFilesLocations": {
+    ".github": true
+  },
+  "makefile.configureOnOpen": true,
+  "chat.tools.terminal.autoApprove": {
+    "/^git restore prisma/schema\\.prisma$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "claudeCode.preferredLocation": "panel",
+  "git.openRepositoryInParentFolders": "never"
 }
