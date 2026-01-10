@@ -1,0 +1,179 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.detectIndentation": false,
+  "emmet.triggerExpansionOnTab": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "git.allowForcePush": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.showFoldingControls": "always",
+  "editor.folding": true,
+  "editor.foldingStrategy": "indentation",
+  "prettier.trailingComma": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".next": true,
+    ".turbo": true,
+    ".vercel": true,
+    ".yarn": true
+  },
+  "files.eol": "\r\n",
+  //"editor.fontFamily": "'Input Mono'",
+  "editor.fontFamily": "'Cascadia Mono'",
+  // "editor.fontFamily": "'JetBrains Mono'",
+  // "editor.fontFamily": "'Dank Mono'",
+  // "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "javascript",
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "colorize.languages": ["javascript", "typescript", "markdown"],
+  "explorer.compactFolders": false,
+  "editor.minimap.showSlider": "always",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.linkedEditing": true,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "editor.autoClosingBrackets": "always",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": false,
+  "workbench.colorTheme": "Dracula Theme",
+  "json.schemas": [],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "powershell.integratedConsole.showOnStartup": false,
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "settingsSync.ignoredSettings": ["remote.SSH.configFile"],
+  "window.commandCenter": true,
+  "editor.accessibilitySupport": "off",
+  "prettier.singleQuote": true,
+  "editor.inlayHints.enabled": "off",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.ignoreMissingGitWarning": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "∗": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "terminal.integrated.scrollback": 30000,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "editor.lightbulb.enabled": "off",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.tree.indent": 12,
+  "workbench.startupEditor": "none",
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "editor.guides.bracketPairsHorizontal": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.stickyTabStops": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "chat.instructionsFilesLocations": {
+    ".github": true
+  },
+  "makefile.configureOnOpen": true,
+  "chat.tools.terminal.autoApprove": {
+    "/^git restore prisma/schema\\.prisma$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "claudeCode.preferredLocation": "panel",
+  "git.openRepositoryInParentFolders": "never"
+}
