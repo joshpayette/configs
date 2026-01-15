@@ -45,8 +45,8 @@
   },
   "files.eol": "\r\n",
   //"editor.fontFamily": "'Input Mono'",
-  "editor.fontFamily": "'Cascadia Mono'",
-  // "editor.fontFamily": "'JetBrains Mono'",
+  // "editor.fontFamily": "'Cascadia Mono'",
+  "editor.fontFamily": "'JetBrains Mono'",
   // "editor.fontFamily": "'Dank Mono'",
   // "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": false,
@@ -156,7 +156,7 @@
   "emmet.includeLanguages": {
     "postcss": "css"
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
@@ -175,5 +175,6 @@
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "claudeCode.preferredLocation": "panel",
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "vsicons.dontShowNewVersionMessage": true
 }
