@@ -34,7 +34,6 @@
   "prettier.trailingComma": "all",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-    // "source.addMissingImports": "always"
   },
   "search.exclude": {
     "node_modules": true,
@@ -46,10 +45,11 @@
   },
   "files.eol": "\r\n",
   //"editor.fontFamily": "'Input Mono'",
-  "editor.fontFamily": "'JetBrains Mono'",
+  // "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontFamily": "'Cascadia Mono'",
   // "editor.fontFamily": "'Dank Mono'",
   // "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": false,
+  "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "monospace",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -57,7 +57,7 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "css.validate": false,
+  "css.validate": true,
   "editor.quickSuggestions": {
     "strings": true
   },
@@ -171,13 +171,12 @@
   "emmet.includeLanguages": {
     "postcss": "css"
   },
-  "workbench.iconTheme": "bearded-icons",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
-  "security.allowedUNCHosts": ["frsdata20"],
   "chat.instructionsFilesLocations": {
     ".github": true
   },
@@ -191,5 +190,7 @@
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "claudeCode.preferredLocation": "panel",
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "chat.tools.terminal.outputLocation": "terminal",
+  "chat.viewSessions.orientation": "stacked"
 }
