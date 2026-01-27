@@ -47,7 +47,6 @@
   //"editor.fontFamily": "'Input Mono'",
   // "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontFamily": "'Cascadia Mono'",
-  // "editor.fontFamily": "'Dank Mono'",
   // "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "monospace",
@@ -119,7 +118,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.semi": false,
-  "workbench.colorTheme": "Dracula Theme",
+  "workbench.colorTheme": "Aura Dracula Spirit",
   "json.schemas": [],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -171,7 +170,6 @@
   "emmet.includeLanguages": {
     "postcss": "css"
   },
-  "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
@@ -192,5 +190,8 @@
   "claudeCode.preferredLocation": "panel",
   "git.openRepositoryInParentFolders": "never",
   "chat.tools.terminal.outputLocation": "terminal",
-  "chat.viewSessions.orientation": "stacked"
+  "chat.viewSessions.orientation": "stacked",
+  "docker.extension.enableComposeLanguageServer": false,
+  "redhat.telemetry.enabled": false,
+  "workbench.iconTheme": "vs-nomo-dark"
 }
